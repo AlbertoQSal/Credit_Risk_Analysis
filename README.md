@@ -73,4 +73,6 @@ After the complete analysis, in the list below the results of balanced accuracy,
 ## Summary
 In general terms, three scores were used to evaluate the models. Balanced Accuracy (defined as the average of recall obtained on each model), precision (defined as the likelihood that a result is actually true) and recall (define as the measure of how many of the true postives are actually classified as true). 
 
-According to the previous definitios, recall would be the most imporant score because out of all the credit risk, it's the main objective to correctly classify those which are of high risk, so recall would give us the certanty 
+According to the previous definitios, recall would be the most imporant score because out of all the credit risk, it's the main objective to correctly classify those which are of high risk, so recall would give us the certanty that a High Risk would be recognized. 
+
+In accordance with the previous paragraph, the best Machine Learning algorithm for this specific topic would be the Easy Ensemble AdaBoost Classifier, the recall for this algorithm ia 0.91 as shown in the bullet list and in Figure 6. I would recommend the use of this algorithm in order to identify the high risk credits.
